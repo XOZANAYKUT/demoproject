@@ -5,9 +5,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-%63mb+o1(q@+2#j$c6-q4m9(kfu_yw*abox4*n4q&%b26w@bz9'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-xozanaykut-demoproject-ggnw189gkh.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-xozanaykut-demoproject-ggnw189gkh.us2.codeanyapp.com',
+'.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
